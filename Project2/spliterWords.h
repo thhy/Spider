@@ -3,6 +3,8 @@
 #include <vector>
 #include "include\NLPIR.h"
 #include <fstream>
+
+#pragma comment(lib,"NLPIR.lib")
 class SpliterWords
 {
 public:
