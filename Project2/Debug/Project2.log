@@ -1,0 +1,30 @@
+﻿生成启动时间为 2016/4/25 星期一 11:22:17。
+     1>项目“d:\Users\thhy\documents\visual studio 2012\Projects\Project2\Project2\Project2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D CURL_STATICLIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt downloadurl.cpp main.cpp
+         downloadurl.cpp
+     1>d:\users\thhy\documents\visual studio 2012\projects\project2\project2\downloadurl.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         正在编译...
+         main.cpp
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\users\thhy\documents\visual studio 2012\Projects\Project2\Debug\Project2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Users\thhy\Documents\Visual Studio 2012\Projects\Project2\Project2" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"d:\users\thhy\documents\visual studio 2012\Projects\Project2\Debug\Project2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\users\thhy\documents\visual studio 2012\Projects\Project2\Debug\Project2.lib" /MACHINE:X86 Debug\bloomfliter.obj
+         Debug\caculateass.obj
+         Debug\downloadurl.obj
+         Debug\insertsql.obj
+         Debug\main.obj
+         Debug\mainwindow.obj
+         Debug\myurl.obj
+         Debug\paserurl.obj
+         Debug\simplehash.obj
+     1>downloadurl.obj : error LNK2019: 无法解析的外部符号 _curl_easy_init，该符号在函数 "public: void __thiscall DownloadUrl::init(void)" (?init@DownloadUrl@@QAEXXZ) 中被引用
+     1>downloadurl.obj : error LNK2019: 无法解析的外部符号 _curl_easy_setopt，该符号在函数 "public: void __thiscall DownloadUrl::init(void)" (?init@DownloadUrl@@QAEXXZ) 中被引用
+     1>downloadurl.obj : error LNK2019: 无法解析的外部符号 _curl_easy_perform，该符号在函数 "public: void __thiscall DownloadUrl::run(void)" (?run@DownloadUrl@@QAEXXZ) 中被引用
+     1>downloadurl.obj : error LNK2019: 无法解析的外部符号 _curl_easy_cleanup，该符号在函数 "public: void __thiscall DownloadUrl::run(void)" (?run@DownloadUrl@@QAEXXZ) 中被引用
+     1>d:\users\thhy\documents\visual studio 2012\Projects\Project2\Debug\Project2.exe : fatal error LNK1120: 4 个无法解析的外部命令
+     1>已完成生成项目“d:\Users\thhy\documents\visual studio 2012\Projects\Project2\Project2\Project2.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.58
